@@ -15,4 +15,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: echo 'Hello World'
+        run: surge ./ bootcamp_assignment_1.surge.sh
